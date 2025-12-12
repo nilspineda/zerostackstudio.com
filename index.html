@@ -180,14 +180,14 @@
             </div>
         </div>
 
-        <a href="mailto:info@zerostackstudio.com" target="_blank" class="email-button">
+        <a href="mailto:info@zerostackstudio.com" class="email-button">
             Contacto
         </a>
     </div>
 
     <script>
-        const now = new Date();
-        const targetDate = new Date(now.getTime() + (60 * 24 * 60 * 60 * 1000));
+        // Fecha objetivo: 1 de febrero de 2026
+        const targetDate = new Date('2026-02-01T00:00:00').getTime();
 
         function updateCountdown() {
             const now = new Date().getTime();
